@@ -1,0 +1,277 @@
+ @import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Chivo&family=Fraunces:wght@700;900&display=swap');
+
+*,*::before,
+*::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Barlow" "Fraunces";
+} 
+body{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header{
+    width: 375px;
+    height: 535px;
+    background-image: url(./assets/photo-1569201529241-f96205e2f2c6.svg);
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.header-logo-links{
+    width: 330px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 32px;
+}
+.links{
+    display: none;
+}
+.header-txt {
+    width: 345px;
+    margin-top: 80px;  
+}
+.header-txt h1{ 
+    text-align: center;
+    font-size: 40px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    letter-spacing: 6.25px;
+    text-transform: uppercase;
+    color: #FFF;
+}
+.arrow{
+    margin-top: 40px;
+}
+section{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.egg-txt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+} 
+.txt{
+    width: 327px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+.txt h1{
+    width: 327px;
+    text-align: center;
+    font-family: "Fraunces";
+    font-weight: 900;
+    letter-spacing: -0.229px;
+    color:#24303E;
+    font-size: 32px;
+    margin-top: 35px;
+}
+.txt p{
+    width: 327px;
+    font-family: "Barlow";
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: -0.129px;
+    color: #808397;
+    text-align: center;
+}
+.txt h2{
+    font-family: "Frauces";
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #24303E;
+    margin-bottom: 35px;
+}
+.before::after{
+    content: "";
+    width: 127px;
+    height: 9px;
+    background-color: #ede19e;
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -121px;
+    margin-top: 13px;
+}
+.before:hover::after{
+    background: #FAD400;
+    transition: 1s;
+}
+.egg{
+    width: 375px;
+    height: 312px;
+    background-image: url(./assets/mae-mu-40NjbC-Q-cw-unsplash.svg);
+}
+.ch{
+    width: 375px;
+    background-image: url(./assets/chh.svg);
+}
+.bef::after{
+    content: "";
+    width: 127px;
+    height: 9px;
+    background-color: #e9c6c2;
+    border-radius: 10px;
+    position: absolute;
+    z-index: -1;
+    margin-left: -121px;
+    margin-top: 13px;
+}
+.bef:hover::after{
+    background: #FE7766;
+    transition: 1s;
+}
+.fruit{
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.man{
+    width: 375px;
+    height: 600px;
+    background-image: url(./assets/Group\ 5\ \(3\).svg);
+}
+.bal{
+    width: 375px;
+    height: 600px;
+    background-image: url(./assets/Group\ 5\ Copy.svg);
+}
+.clients{
+    width: 375px;
+    display: flex;
+    justify-content: center;
+    padding-top: 64px;
+    padding-bottom: 64px;
+}
+.clients-txt{
+    width: 345px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 64px;
+}
+.h-txt{
+    width: 340px;
+    color: #A7AAAD;
+    font-size: 14px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.clients-img{
+    width: 345px;
+    display: flex;
+    flex-direction: column;
+    gap: 37px;
+}
+.test{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.test h4{
+    width: 327px;
+    color: #5B636D;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Barlow";
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.129px;
+}
+.test h3{
+    color: #24303E;
+    text-align: center;
+    font-size: 18px;
+    font-family: "Fraunces";
+    font-weight: 900;
+    letter-spacing: -0.129px;
+}
+.test p{
+    color: #A7AAAD;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 14px;
+    font-family: "Barlow";
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.1px;
+}
+.images{
+    display: flex;
+    flex-wrap: wrap;    
+}
+.iimm{
+    width: 375px;
+    height: 375px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(./assets/Group\ 15\ \(3\).svg);
+}
+.mm{
+    display: none;
+}
+footer{
+    width: 375px;
+    background-color: #90D4C6;
+    display: flex;
+    justify-content: center;
+    height: 350px;
+}
+.foot{
+    width: 297px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.last-img{
+    width: 170px;
+}
+.linkss {
+    width: 297px;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.linkss a{
+    text-decoration: none;
+    color: #458D7E;
+    font-size: 18px;
+    font-family: Barlow;
+    font-weight: 600;
+    line-height: 25px;
+    letter-spacing: -0.129px;
+}
+.linkss a:hover{
+    color: white;
+    transition: 1s;
+}
+.icons{
+    width: 164px;
+    display: flex;
+    justify-content: space-between;
+}
